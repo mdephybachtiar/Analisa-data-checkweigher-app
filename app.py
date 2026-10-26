@@ -11,7 +11,9 @@ import io
 st.set_page_config(page_title="Checkweigher Analysis App", page_icon="📊", layout="centered")
 
 if os.path.exists("Indotech-new-copy.png"):
-  st.image("Indotech-new-copy.png", width=220)
+  col1, col2, col3 = st.columns([1, 2, 1])
+  with col2:
+    st.image("Indotech-new-copy.png", width=220)
 
 st.title("📊 Website Analisa Checkweigher")
 st.write(
