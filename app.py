@@ -10,8 +10,8 @@ import io
 # --- KONFIGURASI HALAMAN MOBILE-FRIENDLY ---
 st.set_page_config(page_title="Checkweigher Analysis App", page_icon="📊", layout="centered")
 
-if os.path.exists("logo_indotech.png"):
-  st.image("logo_indotech.png", width=220)
+if os.path.exists("Indotech-new-copy.png"):
+  st.image("Indotech-new-copy.png", width=220)
 
 st.title("📊 Website Analisa Checkweigher")
 st.write(
