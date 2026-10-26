@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import openpyxl
+import os
 from openpyxl.styles import Alignment, Border, Side, Font, PatternFill
 from openpyxl.chart import LineChart, Reference
 from datetime import datetime
@@ -81,7 +82,7 @@ if uploaded_file is not None:
 
                 # 3. Masukkan ke Template Excel
                 template_file = 'Template New.xlsx'
-                if not openpyxl.os.path.exists(template_file):
+                if not os.path.exists(template_file):
                     st.error("❌ File 'Template New.xlsx' tidak ditemukan di folder server aplikasi!")
                 else:
                     wb = openpyxl.load_workbook(template_file)
