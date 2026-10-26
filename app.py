@@ -26,7 +26,7 @@ st.sidebar.header("⚙️ Pengaturan Parameter")
 customer_name = st.sidebar.text_input("Nama Customer", value="PT. Centra Proteina Prima")
 line_produksi = st.sidebar.text_input("Line Produksi", value="Line 7")
 nomor_mesin = st.sidebar.text_input("Nomor Mesin", value="04")
-performance_by = st.sidebar.text_input("Operator / PIC", value="Dephy Bachtiar")
+performance_by = st.sidebar.text_input("Perfomance by", value="Dephy Bachtiar")
 
 st.sidebar.markdown("---")
 berat_kemasan = st.sidebar.number_input("Berat Kemasan (g)", value=15)
