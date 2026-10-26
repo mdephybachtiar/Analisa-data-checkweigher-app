@@ -15,7 +15,7 @@ if os.path.exists("Indotech-new-copy.png"):
   with col2:
     st.image("Indotech-new-copy.png", use_container_width=True)
 
-st.title("📊 Website Analisa Checkweigher")
+st.title(" Website Analisa Checkweigher")
 st.write(
     "Upload file CSV dari mesin, sesuaikan parameter, dan download laporan"
     " Excel Anda langsung dari HP."
