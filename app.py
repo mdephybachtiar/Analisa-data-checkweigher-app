@@ -10,7 +10,7 @@ import io
 # --- KONFIGURASI HALAMAN MOBILE-FRIENDLY ---
 st.set_page_config(page_title="Checkweigher Analysis App", page_icon="📊", layout="centered")
 
-st.title("📊 Aplikasi Analisa Checkweigher")
+st.title("📊 Website Analisa Checkweigher")
 st.write("Upload file CSV dari mesin, sesuaikan parameter, dan download laporan Excel Anda langsung dari HP.")
 
 # --- SIDEBAR / FORM INPUT PARAMETER ---
